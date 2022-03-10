@@ -1,19 +1,7 @@
-
 package ejercicios;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-
 public class ConversorDeMoneda {
-    /*
-    Nos piden hacer un programa que calcule el valor de la moneda pàra los siguientes
-    paìses: Europa, Reino Unido, Australia y Canada. El programa tiene declarada 
-    una variable con el valor de $100.00 de tipo double y tenemos que realizar la 
-    conversion de dolares a las monedas solicitadas. A continuaciòn se muestra 
-    los valores de conversion
-    
-    1 USD  0.70 Europa  0.61 Reindo Unido   0.95 Australia   0.97 Canada
-    */
-    
     public static void main(String[] args) {
         //Declaracion de formato de decimal
         NumberFormat formato = new DecimalFormat("#0.00");
@@ -41,7 +29,8 @@ public class ConversorDeMoneda {
         System.out.println("En monedad Europea es        : " + formato.format(Euro) + " Euros" );
         System.out.println("En monedad del Reino Unido es: " + formato.format(LbEtln) + " Libras Esterlinas" );
         System.out.println("En monedad Australiana es    : " + formato.format(DAust) + " Dolar Australiano" );
-        System.out.println("En monedad Canadiense es: " + formato.format(DCanad) + " Dolar Canadiense" );
+        System.out.println("En monedad Canadiense es     : " + formato.format(DCanad) + " Dolar Canadiense" );
         
     }
+    
 }
